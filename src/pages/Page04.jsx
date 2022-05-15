@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import "../styles/Page04.css";
 
 function Page04() {
-  const level = "Niveau 14";
+  const level = "Niveau 48";
   return (
     <div>
       <Header />
