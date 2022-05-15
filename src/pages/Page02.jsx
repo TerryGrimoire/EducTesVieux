@@ -78,19 +78,39 @@ function Page02() {
       <div className="wrap-container">
         <img className="question-img" src={questionslist[index].img} alt="" />
         <div className="answer-content">
-          <button className="useless-btn" onClick={handleClick1} type="button">
-            <Boutton el={questionslist[index].reponse1} />
-          </button>
+          <div className="answer-sub-content">
+            <button
+              className="useless-btn"
+              onClick={handleClick1}
+              type="button"
+            >
+              <Boutton el={questionslist[index].reponse1} />
+            </button>
 
-          <button className="useless-btn" onClick={handleClick2} type="button">
-            <Boutton el={questionslist[index].reponse2} />
-          </button>
-          <button className="useless-btn" onClick={handleClick3} type="button">
-            <Boutton el={questionslist[index].reponse3} />
-          </button>
-          <button className="useless-btn" onClick={handleClick4} type="button">
-            <Boutton el={questionslist[index].reponse4} />
-          </button>
+            <button
+              className="useless-btn"
+              onClick={handleClick2}
+              type="button"
+            >
+              <Boutton el={questionslist[index].reponse2} />
+            </button>
+          </div>
+          <div className="answer-sub-content">
+            <button
+              className="useless-btn"
+              onClick={handleClick3}
+              type="button"
+            >
+              <Boutton el={questionslist[index].reponse3} />
+            </button>
+            <button
+              className="useless-btn"
+              onClick={handleClick4}
+              type="button"
+            >
+              <Boutton el={questionslist[index].reponse4} />
+            </button>
+          </div>
         </div>
       </div>
       {commentaire ? (
